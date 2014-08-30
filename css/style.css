@@ -8,7 +8,7 @@ html {
     font-family: Nevis; 
     src: url(../font/nevis_bold.ttf); 
    }
-.conteiner{
+#conteiner{
 	min-width: 1024px;
 	max-width: 1600px;
 	margin: auto;
@@ -23,7 +23,7 @@ header{
 	height: 498px;
 	border-bottom: 1px solid #594522;
 }
-.header-top{
+.headerTop{
 	padding-top: 40px;
 	height: 100px;
 }
@@ -33,7 +33,7 @@ header{
 	font-family: Nevis;
 	color: #c0bea4;
 }
-.header-top p{
+.headerTop p{
 	font-size: 18px;
 	font-family: Georgia;
 	color: #a08967;
@@ -58,11 +58,11 @@ header{
 .menu ul li a:hover{
 	text-decoration: underline;
 }
-.header-bottom{
+.headerBottom{
 	height: 355px;
 	overflow: hidden;
 }
-.header-bottom p{
+.headerBottom p{
 	padding-bottom: 27px;
 	font-size: 14px;
 	font-family: Georgia;
@@ -70,14 +70,14 @@ header{
 	line-height: 18px;
 	word-wrap: inherit;
 }
-.header-bottom h2{
+.headerBottom h2{
 	font-size: 18px;
 	font-family: Arial;
 	color: #ea9f3e;
 	padding-bottom: 25px;
 	text-transform: uppercase;
 }
-.about-me{
+.aboutMe{
 	float: left;
 	width: 458px;
 	padding-right: 50px;
@@ -102,14 +102,14 @@ header{
 	text-decoration: underline;
 }
 /*content*/
-article{
+main{
 	height: 800px;
 }
 .works{
 	padding-bottom: 48px;
 	text-align: center;
 }
-article h3{
+main h3{
 	text-align: center;
 	font-size: 18px;
 	font-family: Arial;
@@ -126,7 +126,7 @@ article h3{
 	display: inline-block;
 	padding: 5px;
 	}
-article h5{
+main h5{
 	padding-top: 5px;
 	padding-bottom: 3px;
 	font-size: 14px;
@@ -134,7 +134,7 @@ article h5{
 	color: #af9671;
 	text-transform: capitalize;
 }
-article p{
+main p{
 	font-size: 14px;
 	font-family: Georgia;
 	color: #cfcdb4;
@@ -235,12 +235,12 @@ footer{
 	height: 699px;
 	background: url(../img/footer.png);
 }
-.footer-top{
+.footerTop{
 	height: 583px;
 	border-bottom: 1px solid #594522;
 	overflow: hidden;
 }
-.footer-bottom{
+.footerBottom{
 	height: 116px;
 }
 .services{
@@ -257,44 +257,44 @@ footer{
 	width: 300px;
 	float: left;
 }
-.footer-top h5{
+.footerTop h5{
 	padding:  48px 0 35px 0;
 	font-size: 18px;
 	font-family: Georgia bold;
 	color: #ea9f3e;
 	text-transform: uppercase;
 }
-.footer-top h6{
+.footerTop h6{
 	font-size: 14px;
 	font-family: Georgia bold;
 	color: #af9671;
 	text-transform: capitalize;
 	padding-bottom: 12px;
 }
-.footer-top p{
+.footerTop p{
 	font-size: 14px;
 	font-family: Georgia;
 	color: #cfcdb4;
 	padding-bottom: 28px;
 }
-.footer-top a{
+.footerTop a{
 	font-size: 14px;
 	font-family: Georgia;
 	color: #af9671;
 	text-decoration: none;
 
 }
-.footer-top ul li a{
+.footerTop ul li a{
 	position: absolute;
 	padding-top: 5px;
 }
-.footer-top ul li{
+.footerTop ul li{
 	padding-bottom: 10px;
 }
-.footer-top ul li img{
+.footerTop ul li img{
 	padding-right: 5px;
 }
-.footer-bottom p{
+.footerBottom p{
 	padding-top: 50px;
 	font-size: 14px;
 	font-family: Georgia;
