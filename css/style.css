@@ -23,7 +23,7 @@ header{
 	height: 498px;
 	border-bottom: 1px solid #594522;
 }
-.header_top{
+.header-top{
 	padding-top: 40px;
 	height: 100px;
 }
@@ -33,7 +33,7 @@ header{
 	font-family: Nevis;
 	color: #c0bea4;
 }
-.header_top p{
+.header-top p{
 	font-size: 18px;
 	font-family: Georgia;
 	color: #a08967;
@@ -58,11 +58,11 @@ header{
 .menu ul li a:hover{
 	text-decoration: underline;
 }
-.header_bottom{
+.header-bottom{
 	height: 355px;
 	overflow: hidden;
 }
-.header_bottom p{
+.header-bottom p{
 	padding-bottom: 27px;
 	font-size: 14px;
 	font-family: Georgia;
@@ -70,14 +70,14 @@ header{
 	line-height: 18px;
 	word-wrap: inherit;
 }
-.header_bottom h2{
+.header-bottom h2{
 	font-size: 18px;
 	font-family: Arial;
 	color: #ea9f3e;
 	padding-bottom: 25px;
 	text-transform: uppercase;
 }
-.about_me{
+.about-me{
 	float: left;
 	width: 458px;
 	padding-right: 50px;
@@ -107,8 +107,9 @@ article{
 }
 .works{
 	padding-bottom: 48px;
+	text-align: center;
 }
-.works h3{
+article h3{
 	text-align: center;
 	font-size: 18px;
 	font-family: Arial;
@@ -125,7 +126,7 @@ article{
 	display: inline-block;
 	padding: 5px;
 	}
-.works h5{
+article h5{
 	padding-top: 5px;
 	padding-bottom: 3px;
 	font-size: 14px;
@@ -133,22 +134,113 @@ article{
 	color: #af9671;
 	text-transform: capitalize;
 }
-.works p{
+article p{
 	font-size: 14px;
 	font-family: Georgia;
 	color: #cfcdb4;
+}
+.contacts p{
+	font-size: 18px;
+	font-family: Georgia;
+	color: #a08967;
+	padding-top: 12px;
+}
+.price h6{
+	text-align: center;
+	font-size: 18px;
+	font-family: Arial;
+	color: #ea9f3e;
+	text-transform: uppercase;
+	padding: 30px 0 30px 0;
+}
+.price h4{
+	font-size: 14px;
+	font-family: Arial;
+	color: #a8a79d;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.web{
+	float: left;
+}
+.web span{
+	padding-left: 20px;
+}
+.web img{
+	position: absolute;
+	padding-top: 10px;
+	padding-left: 2px;
+}
+.web ul li{
+	font-size: 18px;
+	padding: 20px;
+	font-family: Georgia;
+	color: #a08967;
+}
+.web p{
+	width: 300px;
+	position: absolute;
+}
+.desinger{
+	float: right;
+}
+.desinger ul li{
+	font-size: 18px;
+	padding: 20px;
+	font-family: Georgia;
+	color: #a08967;
+}
+#feedback-form {
+  max-width: 400px;
+  padding: 2%;
+  padding-left: 280px;
+  padding-top: 100px;
+}
+#feedback-form [required] {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 2px 0 2% 0;
+  padding: 2%;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 3px;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
+}
+#feedback-form [required]:hover {
+  border-color: #7eb4ea;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
+}
+#feedback-form [required]:focus {
+  outline: none;
+  border-color: #7eb4ea;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 4px rgba(35,146,243,.5);
+  transition: .2s linear;
+}
+#feedback-form [type="submit"] {
+  padding: 2%;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+  background: #669acc;
+  color: #fff;
+}
+#feedback-form [type="submit"]:hover {
+  background: #5c90c2;
+}
+#feedback-form [type="submit"]:focus {
+  box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
 }
 footer{
 	border-top: 1px solid #594522;
 	height: 699px;
 	background: url(../img/footer.png);
 }
-.footer_top{
+.footer-top{
 	height: 583px;
 	border-bottom: 1px solid #594522;
 	overflow: hidden;
 }
-.footer_bottom{
+.footer-bottom{
 	height: 116px;
 }
 .services{
@@ -165,39 +257,44 @@ footer{
 	width: 300px;
 	float: left;
 }
-.footer_top h5{
+.footer-top h5{
 	padding:  48px 0 35px 0;
 	font-size: 18px;
 	font-family: Georgia bold;
 	color: #ea9f3e;
 	text-transform: uppercase;
 }
-.footer_top h6{
+.footer-top h6{
 	font-size: 14px;
 	font-family: Georgia bold;
 	color: #af9671;
 	text-transform: capitalize;
 	padding-bottom: 12px;
 }
-.footer_top p{
+.footer-top p{
 	font-size: 14px;
 	font-family: Georgia;
 	color: #cfcdb4;
 	padding-bottom: 28px;
 }
-.footer_top a{
+.footer-top a{
 	font-size: 14px;
 	font-family: Georgia;
 	color: #af9671;
 	text-decoration: none;
+
 }
-.footer_top ul li{
+.footer-top ul li a{
+	position: absolute;
+	padding-top: 5px;
+}
+.footer-top ul li{
 	padding-bottom: 10px;
 }
-.footer_top ul li img{
+.footer-top ul li img{
 	padding-right: 5px;
 }
-.footer_bottom p{
+.footer-bottom p{
 	padding-top: 50px;
 	font-size: 14px;
 	font-family: Georgia;
