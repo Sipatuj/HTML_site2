@@ -1,4 +1,6 @@
 HTML_site2
 ==========
-В планах ше щоб там де портфоліо при виборі якогось із меню мінявся контент + при наведенні на картинку 
-буде вискакувать збільшене зображення сайту
+1) Did the active menu 
+2) Fixed some errors Coy 
+Next I want to revive a little page with the use js(jquery) and PHP
+And I want to make a submission form active
