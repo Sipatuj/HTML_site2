@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div id="conteiner">
+    <div class="conteiner">
         <header>
             <div class="wrap">
                 <div class="headerTop">
