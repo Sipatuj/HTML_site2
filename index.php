@@ -13,7 +13,7 @@
     <div id="conteiner">
         <header>
             <div class="wrap">
-                <div class="header-top">
+                <div class="headerTop">
                     <div class="logo">
                         <h1><a class="logo" href='index.php'>Omeljan Konstantin </a></h1>
                         <p>Web developer portfolio</p>
@@ -32,8 +32,8 @@
                     <!--end menu-->
                 </div>
                 <!--end header_top-->
-                <div class="header-bottom">
-                    <div class="about-me">
+                <div class="headerBottom">
+                    <div class="aboutMe">
                         <h2> Немного обо мне</h2>
                         <p>Приветствую вас у себя на сайте. Зовут меня Константин, мне 21 год. В данный момент я студент 4 курса специальности "инженер-машиностроения"</p>
                         <p>Основная моя специализация создание сайтов любой сложности и на любых CMS, таких как: <span>Joomla 			WordPress</span>. Используя при этом такие технологии как <span>HTML5 CSS3 PHP JS MySQL</span>
@@ -66,7 +66,7 @@
         <!--end content-->
         <footer>
 
-            <div class="footer-top">
+            <div class="footerTop">
                 <div class="wrap">
                     <div class="services">
                         <h5>SERVICES</h5>
@@ -109,7 +109,7 @@
                 <!--end wrap-->
             </div>
             <!--end footer_top-->
-            <div class="footer-bottom">
+            <div class="footerBottom">
                 <div class="wrap">
                     <p>Копирайт в общем, 2014</p>
                 </div>
